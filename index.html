@@ -14,16 +14,20 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<!--  <body>
+<body>
   <script>
-  const PASSWORD = "7cs-stats-demo"; // change this
+  (function () {
+    const PASSWORD = "claremont2026";  // 🔐 Change this
 
-  const entered = prompt("Password required:");
-  if (entered !== PASSWORD) {
-    document.body.innerHTML = "";
-    alert("Incorrect password.");
-  }
-</script> -->
+    const entered = prompt("This site is password protected.\n\nEnter password:");
+    
+    if (entered !== PASSWORD) {
+      document.body.innerHTML = "";
+      alert("Incorrect password.");
+    }
+  })();
+</script>
+
 
   <a class="skip-link" href="#main">Skip to content</a>
 
